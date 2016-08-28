@@ -18,5 +18,7 @@ vector<string> splitByDelim(string inputStr, string delim);
 
 int stringToInt(string inputStr, int base);
 
+string stringJoinByDelim(vector<string> stringVec, string delim);
+
 
 #endif /* StringUtil_h */

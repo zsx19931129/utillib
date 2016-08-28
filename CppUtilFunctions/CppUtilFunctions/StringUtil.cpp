@@ -25,3 +25,15 @@ vector<string> splitByDelim(string inputStr, string delim){
 int stringToInt(string inputStr, int base=10){
     return stoi(inputStr, nullptr, base);
 }
+
+string stringJoinByDelim(vector<string> stringVec, string delim){
+    size_t vlen = stringVec.size();
+    if(vlen == 0){
+        return "";
+    }
+    string ret = stringVec[0];
+    for(size_t i=1;i<vlen;++i){
+        ret += (delim + stringVec[i]);
+    }
+    return ret;
+}

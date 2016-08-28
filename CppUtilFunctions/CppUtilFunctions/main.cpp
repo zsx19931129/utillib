@@ -18,7 +18,15 @@ void testSplitByDelim(){
     }
 }
 
+void teststringJoinByDelim(){
+    vector<string> stringVec;
+    stringVec.push_back("hello");
+    stringVec.push_back("world");
+    string res = stringJoinByDelim(stringVec, " ");
+    cout<<res<<endl;
+}
+
 int main(int argc, const char * argv[]) {
-    testSplitByDelim();
+    teststringJoinByDelim();
     return 0;
 }
