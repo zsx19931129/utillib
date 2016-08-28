@@ -7,9 +7,18 @@
 //
 
 #include <iostream>
+#include "StringUtil.h"
+
+void testSplitByDelim(){
+    string inputStr = "3-4-4";
+    string delim = "-";
+    vector<string> splited = splitByDelim(inputStr, delim);
+    for(int i=0;i<splited.size();++i){
+        cout<<splited[i]<<endl;
+    }
+}
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    testSplitByDelim();
     return 0;
 }
