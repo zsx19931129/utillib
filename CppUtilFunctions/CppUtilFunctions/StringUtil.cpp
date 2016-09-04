@@ -37,3 +37,12 @@ string stringJoinByDelim(vector<string> stringVec, string delim){
     }
     return ret;
 }
+
+void reverseString(string &str){
+    size_t slen = str.length();
+    for(size_t i=0, j=slen-1;i<j;++i, --j){
+        char ch = str[i];
+        str[i] = str[j];
+        str[j] = ch;
+    }
+}

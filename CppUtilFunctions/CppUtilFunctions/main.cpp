@@ -26,7 +26,13 @@ void teststringJoinByDelim(){
     cout<<res<<endl;
 }
 
+void testReverseString(){
+    string str = "abdc";
+    reverseString(str);
+    cout<<str<<endl;
+}
+
 int main(int argc, const char * argv[]) {
-    teststringJoinByDelim();
+    testReverseString();
     return 0;
 }

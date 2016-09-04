@@ -20,5 +20,6 @@ int stringToInt(string inputStr, int base);
 
 string stringJoinByDelim(vector<string> stringVec, string delim);
 
+void reverseString(string &str);
 
 #endif /* StringUtil_h */
