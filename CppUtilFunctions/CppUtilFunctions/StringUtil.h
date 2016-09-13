@@ -22,4 +22,6 @@ string stringJoinByDelim(vector<string> stringVec, string delim);
 
 void reverseString(string &str);
 
+string trimString(string str, char ch);
+
 #endif /* StringUtil_h */

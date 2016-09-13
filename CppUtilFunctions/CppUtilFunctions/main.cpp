@@ -32,7 +32,16 @@ void testReverseString(){
     cout<<str<<endl;
 }
 
+void testTrimString(){
+    string str = "   assdf   ";
+//    string str = "     ";
+//    string str = "";
+    str = trimString(str, ' ');
+    cout<<str.length()<<endl;
+    cout<<str<<endl;
+}
+
 int main(int argc, const char * argv[]) {
-    testReverseString();
+    testTrimString();
     return 0;
 }

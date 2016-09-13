@@ -46,3 +46,16 @@ void reverseString(string &str){
         str[j] = ch;
     }
 }
+
+string trimString(string str, char ch){
+    string ret;
+    size_t slen = str.length();
+    int i=0;
+    for(;i<slen && str[i] == ch;++i);
+    if(i == slen){
+        return "";
+    }
+    int j=slen-1;
+    for(;j>=0 && str[j] == ch;--j);
+    return str.substr(i, j-i+1);
+}
