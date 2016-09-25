@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		790217751D71E37100C11BFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 790217741D71E37100C11BFE /* main.cpp */; };
 		7902177E1D72763300C11BFE /* StringUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7902177D1D72763300C11BFE /* StringUtil.cpp */; };
+		79A2AC1B1D8946000027438E /* StackUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79A2AC191D8946000027438E /* StackUtil.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,8 @@
 		7902177B1D71E4F700C11BFE /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		7902177C1D7274E200C11BFE /* StringUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StringUtil.h; path = CppUtilFunctions/StringUtil.h; sourceTree = "<group>"; };
 		7902177D1D72763300C11BFE /* StringUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StringUtil.cpp; path = CppUtilFunctions/StringUtil.cpp; sourceTree = "<group>"; };
+		79A2AC191D8946000027438E /* StackUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StackUtil.cpp; path = CppUtilFunctions/StackUtil.cpp; sourceTree = "<group>"; };
+		79A2AC1A1D8946000027438E /* StackUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StackUtil.h; path = CppUtilFunctions/StackUtil.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +48,8 @@
 		790217681D71E37100C11BFE = {
 			isa = PBXGroup;
 			children = (
+				79A2AC191D8946000027438E /* StackUtil.cpp */,
+				79A2AC1A1D8946000027438E /* StackUtil.h */,
 				7902177D1D72763300C11BFE /* StringUtil.cpp */,
 				7902177C1D7274E200C11BFE /* StringUtil.h */,
 				7902177B1D71E4F700C11BFE /* .gitignore */,
@@ -125,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A2AC1B1D8946000027438E /* StackUtil.cpp in Sources */,
 				7902177E1D72763300C11BFE /* StringUtil.cpp in Sources */,
 				790217751D71E37100C11BFE /* main.cpp in Sources */,
 			);
@@ -247,6 +253,7 @@
 				7902177A1D71E37100C11BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

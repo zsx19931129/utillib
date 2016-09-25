@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "StringUtil.h"
+#include "StackUtil.h"
 
 void testSplitByDelim(){
     string inputStr = "3-4-4";
@@ -41,7 +42,27 @@ void testTrimString(){
     cout<<str<<endl;
 }
 
+void testStackToVector(){
+    stack<int> stk;
+    stk.push(1);
+    stk.push(2);
+    stk.push(3);
+    vector<int> ret = stackToVector<int>(stk);
+    for(int i=0;i<ret.size();++i){
+        cout<<ret[i]<<" ";
+    }
+    cout<<endl;
+}
+
+void testStringRegexReplace(){
+    string str = "/home//foo/";
+    regex e("/+");
+    string dest = "/";
+    string ret = stringRegexReplace(str, e, dest);
+    cout<<ret<<endl;
+}
+
 int main(int argc, const char * argv[]) {
-    testTrimString();
+    testStringRegexReplace();
     return 0;
 }

@@ -10,6 +10,7 @@
 #define StringUtil_h
 
 #include <string>
+#include <regex>
 #include <vector>
 
 using namespace std;
@@ -23,5 +24,7 @@ string stringJoinByDelim(vector<string> stringVec, string delim);
 void reverseString(string &str);
 
 string trimString(string str, char ch);
+
+string stringRegexReplace(string str, regex ori, string dest);
 
 #endif /* StringUtil_h */

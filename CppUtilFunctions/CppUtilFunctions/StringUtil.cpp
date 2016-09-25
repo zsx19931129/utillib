@@ -59,3 +59,7 @@ string trimString(string str, char ch){
     for(;j>=0 && str[j] == ch;--j);
     return str.substr(i, j-i+1);
 }
+
+string stringRegexReplace(string str, regex ori, string dest){
+    return regex_replace(str, ori, dest);
+}
