@@ -10,6 +10,7 @@
 		790217751D71E37100C11BFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 790217741D71E37100C11BFE /* main.cpp */; };
 		7902177E1D72763300C11BFE /* StringUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7902177D1D72763300C11BFE /* StringUtil.cpp */; };
 		79A2AC1B1D8946000027438E /* StackUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79A2AC191D8946000027438E /* StackUtil.cpp */; };
+		79A2AC1E1D9824C90027438E /* smartPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79A2AC1C1D9824C80027438E /* smartPointer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,8 @@
 		7902177D1D72763300C11BFE /* StringUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StringUtil.cpp; path = CppUtilFunctions/StringUtil.cpp; sourceTree = "<group>"; };
 		79A2AC191D8946000027438E /* StackUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StackUtil.cpp; path = CppUtilFunctions/StackUtil.cpp; sourceTree = "<group>"; };
 		79A2AC1A1D8946000027438E /* StackUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StackUtil.h; path = CppUtilFunctions/StackUtil.h; sourceTree = "<group>"; };
+		79A2AC1C1D9824C80027438E /* smartPointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = smartPointer.cpp; path = CppUtilFunctions/smartPointer.cpp; sourceTree = "<group>"; };
+		79A2AC1D1D9824C80027438E /* smartPointer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = smartPointer.hpp; path = CppUtilFunctions/smartPointer.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,8 @@
 		790217681D71E37100C11BFE = {
 			isa = PBXGroup;
 			children = (
+				79A2AC1C1D9824C80027438E /* smartPointer.cpp */,
+				79A2AC1D1D9824C80027438E /* smartPointer.hpp */,
 				79A2AC191D8946000027438E /* StackUtil.cpp */,
 				79A2AC1A1D8946000027438E /* StackUtil.h */,
 				7902177D1D72763300C11BFE /* StringUtil.cpp */,
@@ -131,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79A2AC1B1D8946000027438E /* StackUtil.cpp in Sources */,
+				79A2AC1E1D9824C90027438E /* smartPointer.cpp in Sources */,
 				7902177E1D72763300C11BFE /* StringUtil.cpp in Sources */,
 				790217751D71E37100C11BFE /* main.cpp in Sources */,
 			);

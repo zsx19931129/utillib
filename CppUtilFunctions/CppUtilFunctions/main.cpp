@@ -9,6 +9,7 @@
 #include <iostream>
 #include "StringUtil.h"
 #include "StackUtil.h"
+#include "smartPointer.hpp"
 
 void testSplitByDelim(){
     string inputStr = "3-4-4";
@@ -62,7 +63,25 @@ void testStringRegexReplace(){
     cout<<ret<<endl;
 }
 
+void testSmartPointer(){
+    int *pi = new int(42);
+    HasPtr *hpa = new HasPtr(pi, 100);
+    HasPtr *hpb = new HasPtr(*hpa);
+    HasPtr *hpc = new HasPtr(*hpb);
+    HasPtr hpd = *hpa;
+    
+    cout<<hpa->get_ptr_val()<<" "<<hpb->get_ptr_val()<<endl;
+    hpc->set_ptr_val(10000);
+    cout<<hpa->get_ptr_val()<<" "<<hpb->get_ptr_val()<<endl;
+    hpc->set_ptr_val(10);
+    cout<<hpa->get_ptr_val()<<" "<<hpb->get_ptr_val()<<endl;
+    delete hpa;
+    delete hpb;
+    delete hpc;
+    cout<<hpd.get_ptr_val()<<endl;
+}
+
 int main(int argc, const char * argv[]) {
-    testStringRegexReplace();
+    testSmartPointer();
     return 0;
 }
