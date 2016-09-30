@@ -13,6 +13,7 @@
 #include <iostream>
 using namespace std;
 
+/*    a template    */
 // a template of smartPointer
 template <class T>
 class smartPointer
@@ -32,8 +33,7 @@ public:
     }
 };
 
-
-
+/* implementation 1 */
 // only used by HasPtr, so all private
 class U_Ptr{
     friend class HasPtr;
@@ -96,5 +96,7 @@ public:
         *ptr->ip = i;
     }
 };
+
+
 
 #endif /* smartPointer_hpp */
