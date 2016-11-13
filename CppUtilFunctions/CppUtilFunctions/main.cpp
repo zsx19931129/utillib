@@ -7,9 +7,11 @@
 //
 
 #include <iostream>
+#include <unordered_map>
 #include "StringUtil.h"
 #include "StackUtil.h"
 #include "smartPointer.hpp"
+#include "mathUtil.hpp"
 
 void testSplitByDelim(){
     string inputStr = "3-4-4";
@@ -81,7 +83,14 @@ void testSmartPointer(){
     cout<<hpd.get_ptr_val()<<endl;
 }
 
+void testFraction(){
+    fraction a(4,2);
+    cout<<a.n<<" "<<a.d<<endl;
+    fraction b(6,3);
+    fraction c(8,3);
+}
+
 int main(int argc, const char * argv[]) {
-    testSmartPointer();
+    
     return 0;
 }

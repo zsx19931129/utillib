@@ -11,6 +11,7 @@
 		7902177E1D72763300C11BFE /* StringUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7902177D1D72763300C11BFE /* StringUtil.cpp */; };
 		79A2AC1B1D8946000027438E /* StackUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79A2AC191D8946000027438E /* StackUtil.cpp */; };
 		79A2AC1E1D9824C90027438E /* smartPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79A2AC1C1D9824C80027438E /* smartPointer.cpp */; };
+		79AE81241D9EB28C00A46BA6 /* mathUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79AE81221D9EB28C00A46BA6 /* mathUtil.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,8 @@
 		79A2AC1A1D8946000027438E /* StackUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StackUtil.h; path = CppUtilFunctions/StackUtil.h; sourceTree = "<group>"; };
 		79A2AC1C1D9824C80027438E /* smartPointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = smartPointer.cpp; path = CppUtilFunctions/smartPointer.cpp; sourceTree = "<group>"; };
 		79A2AC1D1D9824C80027438E /* smartPointer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = smartPointer.hpp; path = CppUtilFunctions/smartPointer.hpp; sourceTree = "<group>"; };
+		79AE81221D9EB28C00A46BA6 /* mathUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mathUtil.cpp; path = CppUtilFunctions/mathUtil.cpp; sourceTree = "<group>"; };
+		79AE81231D9EB28C00A46BA6 /* mathUtil.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = mathUtil.hpp; path = CppUtilFunctions/mathUtil.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		790217681D71E37100C11BFE = {
 			isa = PBXGroup;
 			children = (
+				79AE81221D9EB28C00A46BA6 /* mathUtil.cpp */,
+				79AE81231D9EB28C00A46BA6 /* mathUtil.hpp */,
 				79A2AC1C1D9824C80027438E /* smartPointer.cpp */,
 				79A2AC1D1D9824C80027438E /* smartPointer.hpp */,
 				79A2AC191D8946000027438E /* StackUtil.cpp */,
@@ -138,6 +143,7 @@
 				79A2AC1B1D8946000027438E /* StackUtil.cpp in Sources */,
 				79A2AC1E1D9824C90027438E /* smartPointer.cpp in Sources */,
 				7902177E1D72763300C11BFE /* StringUtil.cpp in Sources */,
+				79AE81241D9EB28C00A46BA6 /* mathUtil.cpp in Sources */,
 				790217751D71E37100C11BFE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
